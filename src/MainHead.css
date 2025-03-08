@@ -1,0 +1,62 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px 70px 40px;
+}
+
+.mainHeading {
+  padding: 20px 0px 0px 30px;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subDiv1 {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.subDiv2 {
+  margin-right: 0px;
+  width: 70%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPara {
+  padding: 10px 40px 40px 30px;
+  margin: 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.mainImage {
+  height: 470px;
+  width: 750px;
+  transition: transform 0.2s ease-in-out;
+}
+.tiltContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.practicButton {
+  border-radius: 10px;
+  border: 0.1px solid black;
+  padding: 10px 20px;
+  margin-top: 40px;
+  background-color: rgb(188, 104, 233);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.practicButton:hover {
+
+
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

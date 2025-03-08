@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(239, 239, 239);
+  border-bottom: 0.1px solid black;
+}
+
+.login {
+  margin: 25px 40px 20px 20px;
+}
+
+.loginButton {
+  border: 1px solid rgb(0, 119, 255);
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: rgb(0, 119, 255);
+  background-color: rgb(231, 242, 255);
+  transition: all 0.2s ease-in-out;
+}
+
+.loginButton:hover {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 119, 255, 0.5);
+}
+
+
+.navBar {
+  height: 75px;
+  margin-top: 0px;
+}
+
+.logoName {
+  padding: 25px 15px 20px 20px;
+  font-family: 'Lora', serif;
+  letter-spacing: 2px;
+  font-size: 35px;
+  color: rgb(188, 104, 233);
+  font-weight: bold;
+}
